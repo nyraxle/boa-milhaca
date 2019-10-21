@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>BOA MILHAÇA</title>
+  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <script>
+      var milhacaFrases = [
+          'Boa milhaça',
+          'Ta sabendo legal ein',
+          'A vá',
+          'E memo?',
+          'Corna jumenta'
+      ]
+      setTimeout(() => {
+        var span = document.getElementById('milhaca');
+        var index = Math.ceil(Math.random() * (4 - 0) + 0);
+        span.innerText = milhacaFrases[index];
+      });
+  </script>
+</head>
+
+<body>
+  <div class="milhaca">
+      <span id="milhaca" class="sabendo-legal">T</span>
+  </div>
+</body>
+
+</html>
