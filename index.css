@@ -1,5 +1,14 @@
+:host {
+    overflow: hidden;
+}
+
 .milhaca {
     text-align: center;
     font-size: 40px;
     font-family: 'Merriweather';
+}
+
+.milhaca-man {
+    width: 200%;
+    height: 200px;
 }
